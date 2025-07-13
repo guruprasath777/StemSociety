@@ -1,0 +1,2122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>STEM Society</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="styles1.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<style>
+</style>
+</link></link></head>
+<body class="bg-white text-white">
+<!-- Navbar -->
+<header class="w-full fixed top-0 z-50 bg-[#0a1744] text-white shadow-md">
+<div class="flex justify-between items-center px-6 py-4">
+<button class="focus:outline-none flex items-center gap-2 text-lg font-semibold" id="menuToggle">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<span class="hidden md:inline">Menu</span>
+</button>
+<h1 class="text-xl font-bold uppercase tracking-wider">STEM Society</h1>
+<img alt="Logo" class="h-10 w-auto" src="Asserts/STEM Logo 1.4.png"/>
+</div>
+</header>
+<!-- Full-Screen Overlay -->
+<div class="fixed top-0 left-0 w-full h-full bg-[#0a1744] text-white z-50 transition-slide overlay-closed overflow-hidden pt-16" id="menuOverlay">
+<div class="relative flex flex-col h-full">
+<!-- Top Bar Inside Overlay -->
+<div class="flex justify-between items-center px-6 py-4 border-b border-white/20 z-10 relative">
+<button class="flex items-center gap-2 text-lg font-semibold" id="closeMenu">
+<span class="text-2xl">✕</span> Close
+        </button>
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-2">
+<span class="font-semibold">Search</span>
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+</div>
+</div>
+<!-- Background Logo -->
+<div class="absolute bottom-24 right-6 z-0 opacity-10">
+<img alt="Seal Logo" class="w-48 md:w-64 h-auto" src="Asserts/STEM Logo 1.4.png"/>
+</div>
+<!-- Main Content -->
+<div class="flex flex-col md:flex-row flex-grow px-6 py-4 gap-8 relative z-10 overflow-y-auto">
+<!-- Left Menu Titles -->
+<div class="w-full md:w-1/3 border-r border-white/20">
+<ul class="space-y-3 font-bold text-lg uppercase">
+<li class="bg-white bg-opacity-20 p-3 rounded">Home</li>
+<li class="hover:bg-white hover:bg-opacity-10 p-3 rounded cursor-pointer">About us</li>
+<li class="hover:bg-white hover:bg-opacity-10 p-3 rounded cursor-pointer">Administration</li>
+<li class="hover:bg-white hover:bg-opacity-10 p-3 rounded cursor-pointer">Events</li>
+<li class="hover:bg-white hover:bg-opacity-10 p-3 rounded cursor-pointer">Projects</li>
+<li class="hover:bg-white hover:bg-opacity-10 p-3 rounded cursor-pointer">Gallery</li>
+</ul>
+</div>
+<!-- Right Submenu -->
+<div class="w-full md:w-2/3 mt-4 md:mt-0 space-y-4 text-lg">
+<p>Articles</p>
+<p>Achievements</p>
+<p>National Stem Festival</p>
+<p>Contact</p>
+<p>Donate</p>
+</div>
+</div>
+<!-- Social Media Links -->
+<div class="socials flex justify-end items-center gap-6 text-2xl px-6 py-4 border-t border-white/20 z-10 relative">
+<div class="button-panel flex gap-6">
+<a class="fa fa-facebook hover:text-gray-300" href="#" title="Facebook"></a>
+<a class="fa fa-youtube hover:text-gray-300" href="#" title="YouTube"></a>
+<a class="fa fa-instagram hover:text-gray-300" href="#" title="Instagram"></a>
+<a class="fa fa-twitter hover:text-gray-300" href="#" title="Twitter"></a>
+<a class="fa fa-linkedin hover:text-gray-300" href="#" title="LinkedIn"></a>
+</div>
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>STEM Society - American National College</title>
+<!-- Google Fonts: Playfair Display for elegance, Inter for general text -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Inter:wght@300;400;600&amp;display=swap" rel="stylesheet"/>
+<!-- Font Awesome for navigation icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+<style>
+        /* Basic Reset & Body Styling */
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif; /* Default font */
+            overflow-x: hidden; /* Prevent horizontal scrollbars */
+            background-color: #0D1B2A; /* Dark blue background for overall theme */
+        }
+
+        /* Hero Section Container */
+        .hero-section {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            color: white;
+            flex-shrink: 0; /* Prevent shrinking in flex container */
+        }
+
+        /* Background Slideshow Container */
+        .hero-backgrounds {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1; /* Behind content */
+        }
+
+        /* Individual Background Image */
+        .hero-background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            opacity: 0; /* Hidden by default */
+            transition: opacity 1.5s ease-in-out; /* Fade transition */
+            transform: scale(1.05); /* Slight zoom effect */
+            filter: brightness(0.7); /* Darken images slightly */
+        }
+
+        .hero-background-image.active {
+            opacity: 1; /* Active image is visible */
+            transform: scale(1); /* Reset zoom for active image */
+        }
+
+        /* Dark Overlay for Readability */
+        .hero-section::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* Gradient from dark bottom/top to transparent middle */
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+            z-index: 0; /* Between background and content */
+        }
+
+        /* Main Content Styling */
+        .hero-content {
+            text-align: center;
+            z-index: 1; /* Above overlay */
+            padding: 0 20px; /* Add some horizontal padding */
+            transform: translateY(-5vh); /* Adjust vertical position */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px; /* Space between text and button */
+            max-width: 900px; /* Limit content width on very large screens */
+            width: 100%; /* Ensure it takes full width up to max-width */
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
+
+        .hero-content h1 {
+            font-family: 'Playfair Display', serif; /* Elegant font for heading */
+            font-size: clamp(2.5rem, 6vw, 5rem); /* Responsive font size */
+            margin: 0;
+            line-height: 1.1;
+            font-weight: 700; /* Bold for impact */
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Stronger shadow */
+            letter-spacing: 2px; /* Slightly spaced out letters */
+            animation: fadeInScale 1.5s ease-out forwards; /* Animation on load */
+        }
+
+        .hero-content p {
+            font-family: 'Inter', sans-serif;
+            font-size: clamp(1rem, 2vw, 1.5rem);
+            margin-top: 15px;
+            font-weight: 300;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 2s ease-out forwards; /* Animation on load */
+            animation-delay: 0.5s;
+            opacity: 0; /* Hidden initially for animation */
+        }
+
+        /* Navigation Arrows */
+        .hero-navigation {
+            position: absolute;
+            bottom: 30px; /* Position from bottom */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2; /* Above all else */
+        }
+
+        .nav-arrow {
+            background: rgba(255, 255, 255, 0.1); /* Even more subtle transparent white */
+            border: 1px solid rgba(255, 255, 255, 0.2); /* Lighter border */
+            border-radius: 50%;
+            color: white;
+            font-size: clamp(1.1rem, 1.8vw, 1.8rem); /* Slightly smaller icon */
+            width: clamp(38px, 5.5vw, 60px); /* Slightly smaller button */
+            height: clamp(38px, 5.5vw, 60px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Softer shadow */
+            backdrop-filter: blur(3px); /* Frosted glass effect */
+        }
+
+        .nav-arrow:hover {
+            background: rgba(255, 255, 255, 0.2); /* Slightly more opaque on hover */
+            transform: scale(1.08); /* Slightly more prominent scale on hover */
+            border-color: rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* More prominent shadow on hover */
+        }
+
+        .nav-arrow:active {
+            transform: scale(0.92); /* Click effect */
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .left-arrow {
+            position: absolute;
+            left: 30px; /* Position from left */
+        }
+
+        .right-arrow {
+            position: absolute;
+            right: 30px; /* Position from right */
+        }
+
+        /* Pagination Dots */
+        .pagination-dots {
+            display: flex;
+            gap: 10px; /* Adjusted gap for better spacing */
+            margin: 0 20px;
+        }
+
+        .dot {
+            width: 8px; /* Slightly smaller dot */
+            height: 8px; /* Slightly smaller dot */
+            background-color: rgba(255, 255, 255, 0.3); /* More subtle transparent white */
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background-color 0.3s ease, width 0.3s ease, border-radius 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Softer dot shadow */
+        }
+
+        .dot.active {
+            background-color: #778DA9; /* Use a prominent blue from the theme */
+            width: 28px; /* Slightly shorter active dot */
+            border-radius: 4px; /* Slightly smaller rounded rectangle */
+            box-shadow: 0 2px 6px rgba(119, 141, 169, 0.6); /* Blue shadow for active dot */
+        }
+
+        /* Keyframe Animations */
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: translateY(-20px) scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(-5vh) scale(1);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Info Section Styling (About Us, Vision/Mission) */
+        .info-section {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; /* Align content to the left for ALL info sections */
+            overflow: hidden;
+            color: white;
+            padding: 50px;
+            box-sizing: border-box;
+            flex-shrink: 0; /* Prevent shrinking in flex container */
+        }
+
+        .info-section-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+            filter: brightness(0.6); /* Darken background for text readability */
+        }
+
+        .info-section-background::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* Gradient from dark right to transparent left, to make left-aligned text readable */
+            background: linear-gradient(to left, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
+        }
+
+        .info-section-content {
+            z-index: 1;
+            max-width: 600px; /* Limit content width */
+            text-align: left; /* Text alignment within the content box */
+            padding: 30px;
+            background: transparent; /* Make background transparent to show gradient behind */
+            border-radius: 10px; /* Keep rounded corners */
+        }
+
+        .info-section-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #E0E1DD; /* Lighter text for headings */
+        }
+
+        .info-section-content p {
+            font-family: 'Inter', sans-serif;
+            font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+            line-height: 1.6;
+            margin-bottom: 25px;
+            color: #B0B0B0; /* Slightly lighter body text */
+        }
+
+        .read-more-button {
+            background: #0D1B2A; /* Dark blue background for the button */
+            border: 2px solid #778DA9; /* Light blue border */
+            border-radius: 5px;
+            color: #778DA9; /* Light blue text */
+            padding: 12px 25px;
+            font-size: clamp(0.8rem, 1.2vw, 1rem);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+        }
+
+        .read-more-button:hover {
+            background: #1B263B; /* Slightly lighter dark blue on hover */
+            color: white;
+            border-color: white; /* White border on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .read-more-button:active {
+            transform: translateY(1px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Gallery Section Styling */
+        .gallery-section {
+            display: flex;
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
+            width: 100vw;
+            height: 100vh; /* Take full viewport height */
+            background-color: #0D1B2A; /* Match body background */
+            padding: 20px; /* Add some padding around the grid */
+            box-sizing: border-box;
+            gap: 20px; /* Gap between gallery items */
+            justify-content: center; /* Center items horizontally */
+            align-items: center; /* Center items vertically */
+            flex-shrink: 0;
+        }
+
+        .gallery-item {
+            position: relative;
+            flex: 1; /* Allow items to grow and shrink */
+            min-width: 45%; /* Minimum width for two columns on larger screens */
+            max-width: calc(50% - 10px); /* Max width for two columns with gap */
+            height: calc(100% - 40px); /* Adjust height to fit within section with padding */
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex; /* Use flex to center content */
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px); /* Lift effect on hover */
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+        }
+
+        .gallery-item-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            filter: brightness(0.5); /* Darken image for text readability */
+            transition: filter 0.3s ease;
+        }
+
+        .gallery-item:hover .gallery-item-background {
+            filter: brightness(0.6); /* Slightly lighten on hover */
+        }
+
+        .gallery-item-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3); /* Subtle dark overlay */
+            transition: background-color 0.3s ease;
+        }
+
+        .gallery-item:hover .gallery-item-overlay {
+            background: rgba(0, 0, 0, 0.1); /* Lighter overlay on hover */
+        }
+
+        .gallery-item-title {
+            position: relative; /* Position above overlay */
+            z-index: 1;
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 5vw, 4.5rem); /* Large, responsive title */
+            color: white;
+            text-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        /* New Sections Styling */
+
+        /* General Section Container for new sections */
+        .section-container {
+            width: 100vw;
+            min-height: 70vh; /* Minimum height for content */
+            padding: 80px 50px;
+            box-sizing: border-box;
+            color: white;
+            text-align: center;
+            background-color: #0D1B2A; /* Consistent dark blue */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .section-container h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.2rem, 5vw, 4rem);
+            margin-bottom: 40px;
+            color: #E0E1DD;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Our Impact (Stats Section) */
+        .stats-section .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            width: 100%;
+            max-width: 1000px;
+            margin-top: 20px;
+        }
+
+        .stats-section .stat-item {
+            background: rgba(27, 38, 59, 0.8); /* Darker blue transparent */
+            padding: 30px 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .stats-section .stat-item:hover {
+            transform: translateY(-5px);
+            background: rgba(41, 60, 90, 0.9);
+        }
+
+        .stats-section .stat-item .number {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 700;
+            color: #778DA9; /* Blue accent */
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .stats-section .stat-item .label {
+            font-size: clamp(0.9rem, 1.8vw, 1.2rem);
+            color: #B0B0B0;
+        }
+
+        /* Upcoming Events Section */
+        .events-section .events-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .events-section .event-card {
+            background: rgba(27, 38, 59, 0.8);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: left;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .events-section .event-card:hover {
+            transform: translateY(-5px);
+            background: rgba(41, 60, 90, 0.9);
+        }
+
+        .events-section .event-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+            color: #E0E1DD;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .events-section .event-card p {
+            font-size: clamp(0.85rem, 1.5vw, 1rem);
+            color: #B0B0B0;
+            margin-bottom: 15px;
+        }
+
+        .events-section .event-card .details-button {
+            background: #778DA9; /* Blue accent */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: inline-block;
+        }
+
+        .events-section .event-card .details-button:hover {
+            background: #5D7B9D;
+            transform: translateY(-2px);
+        }
+
+        /* Event Countdown Timer */
+        .countdown-section {
+            background-image: url('https://placehold.co/1920x400/1B263B/FFFFFF?text=Countdown+Background');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            padding: 100px 50px;
+            min-height: 40vh;
+        }
+
+        .countdown-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+            z-index: 0;
+        }
+
+        .countdown-section .content-wrapper {
+            position: relative;
+            z-index: 1;
+        }
+
+        .countdown-section h2 {
+            margin-bottom: 30px;
+        }
+
+        .countdown-timer {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .countdown-item {
+            background: rgba(27, 38, 59, 0.7);
+            padding: 20px 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .countdown-item .value {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 5vw, 4rem);
+            font-weight: 700;
+            color: #E0E1DD;
+            margin-bottom: 5px;
+        }
+
+        .countdown-item .label {
+            font-size: clamp(0.8rem, 1.5vw, 1rem);
+            color: #B0B0B0;
+            text-transform: uppercase;
+        }
+
+        /* Featured Projects Section */
+        .projects-section .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .projects-section .project-card {
+            background: rgba(27, 38, 59, 0.8);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .projects-section .project-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+        }
+
+        .projects-section .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            filter: brightness(0.8);
+            transition: filter 0.3s ease;
+        }
+
+        .projects-section .project-card:hover img {
+            filter: brightness(1);
+        }
+
+        .projects-section .project-card .project-info {
+            padding: 20px;
+        }
+
+        .projects-section .project-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+            color: #E0E1DD;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .projects-section .project-card p {
+            font-size: clamp(0.8rem, 1.4vw, 0.95rem);
+            color: #B0B0B0;
+            line-height: 1.5;
+        }
+
+        /* Why Join Us Section */
+        .join-us-section {
+            background-image: url('https://placehold.co/1920x600/0D1B2A/FFFFFF?text=Why+Join+Us+Background');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            padding: 100px 50px;
+            min-height: 60vh;
+        }
+
+        .join-us-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+            z-index: 0;
+        }
+
+        .join-us-section .content-wrapper {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .join-us-section h2 {
+            margin-bottom: 30px;
+        }
+
+        .join-us-section p {
+            font-size: clamp(1rem, 2vw, 1.4rem);
+            color: #E0E1DD;
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+
+        .join-us-section .join-button {
+            background: #778DA9;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .join-us-section .join-button:hover {
+            background: #5D7B9D;
+            transform: translateY(-3px);
+        }
+
+        /* National STEM Festival Highlight */
+        .festival-section {
+            background-image: url('https://placehold.co/1920x700/415A77/FFFFFF?text=STEM+Festival');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            padding: 100px 50px;
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .festival-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+            z-index: 0;
+        }
+
+        .festival-section .content-wrapper {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        .festival-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            margin-bottom: 20px;
+            color: #E0E1DD;
+        }
+
+        .festival-section p {
+            font-size: clamp(1rem, 2vw, 1.4rem);
+            color: #B0B0B0;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .festival-section .learn-more-button {
+            background: #778DA9;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .festival-section .learn-more-button:hover {
+            background: #5D7B9D;
+            transform: translateY(-3px);
+        }
+
+        /* Support Us - Donation CTA */
+        .donate-section {
+            background-color: #1B263B; /* Slightly lighter dark blue */
+            padding: 80px 50px;
+        }
+
+        .donate-section h2 {
+            margin-bottom: 25px;
+        }
+
+        .donate-section p {
+            font-size: clamp(1rem, 1.8vw, 1.2rem);
+            color: #B0B0B0;
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+            line-height: 1.6;
+        }
+
+        .donate-section .donate-button {
+            background: linear-gradient(45deg, #778DA9, #415A77); /* Blue gradient */
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            border-radius: 30px;
+            font-size: clamp(1rem, 1.8vw, 1.3rem);
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 8px 20px rgba(65, 90, 119, 0.5);
+        }
+
+        .donate-section .donate-button:hover {
+            background: linear-gradient(45deg, #415A77, #778DA9);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(65, 90, 119, 0.7);
+        }
+
+        .donate-section .donate-button:active {
+            transform: translateY(0);
+            box-shadow: 0 5px 10px rgba(65, 90, 119, 0.3);
+        }
+
+        /* Testimonials Section */
+        .testimonials-section {
+            padding: 80px 50px;
+            background-color: #0D1B2A;
+        }
+
+        .testimonials-section .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 40px;
+        }
+
+        .testimonials-section .testimonial-card {
+            background: rgba(27, 38, 59, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: left;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .testimonials-section .testimonial-card:hover {
+            transform: translateY(-5px);
+            background: rgba(41, 60, 90, 0.9);
+        }
+
+        .testimonials-section .testimonial-card blockquote {
+            font-style: italic;
+            font-size: clamp(0.95rem, 1.6vw, 1.1rem);
+            line-height: 1.7;
+            margin: 0 0 15px 0;
+            color: #E0E1DD;
+        }
+
+        .testimonials-section .testimonial-card .author {
+            font-weight: 600;
+            color: #778DA9; /* Blue accent */
+            font-size: clamp(0.85rem, 1.4vw, 1rem);
+        }
+
+        /* Join the Society CTA */
+        .join-society-cta {
+            background-color: #1B263B;
+            padding: 60px 50px;
+        }
+
+        .join-society-cta h2 {
+            margin-bottom: 30px;
+            font-size: clamp(2rem, 4vw, 3.5rem);
+        }
+
+        .join-society-cta .join-button {
+            background: linear-gradient(45deg, #778DA9, #415A77);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            border-radius: 30px;
+            font-size: clamp(1rem, 1.8vw, 1.3rem);
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 8px 20px rgba(65, 90, 119, 0.5);
+        }
+
+        .join-society-cta .join-button:hover {
+            background: linear-gradient(45deg, #415A77, #778DA9);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(65, 90, 119, 0.7);
+        }
+
+        .join-society-cta .join-button:active {
+            transform: translateY(0);
+            box-shadow: 0 5px 10px rgba(65, 90, 119, 0.3);
+        }
+
+        /* Interactive STEM Insights (Pop-up Triggers) */
+        .interactive-insights-section {
+            padding: 60px 50px;
+            background-color: #0D1B2A;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .interactive-insights-section .button-group {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap; /* Allow buttons to wrap on small screens */
+            justify-content: center;
+        }
+
+        .interactive-insights-section .insight-button {
+            background: linear-gradient(45deg, #778DA9, #415A77);
+            border: none;
+            border-radius: 30px;
+            color: white;
+            padding: 15px 30px;
+            font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 8px 15px rgba(65, 90, 119, 0.4);
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .interactive-insights-section .insight-button:hover {
+            background: linear-gradient(45deg, #415A77, #778DA9);
+            box-shadow: 0 12px 20px rgba(65, 90, 119, 0.6);
+            transform: translateY(-3px);
+        }
+
+        .interactive-insights-section .insight-button:active {
+            transform: translateY(0);
+            box-shadow: 0 5px 10px rgba(65, 90, 119, 0.3);
+        }
+
+        .interactive-insights-section .insight-button .spinner {
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-top: 3px solid #fff;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            display: none; /* Hidden by default */
+        }
+
+        .interactive-insights-section .insight-button.loading .spinner {
+            display: block; /* Show when loading */
+        }
+
+        .interactive-insights-section .insight-button.loading span {
+            display: none; /* Hide text when loading */
+        }
+
+        /* LLM Response Display (Pop-up) */
+        .llm-response-container {
+            position: fixed; /* Fixed position to overlay content */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(27, 38, 59, 0.95); /* Darker blue, slightly transparent background */
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 80vw;
+            width: calc(100% - 40px); /* Adjust for padding on smaller screens */
+            box-sizing: border-box; /* Include padding in width calculation */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+            z-index: 1000; /* On top of everything */
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px); /* Glassmorphism effect */
+        }
+
+        .llm-response-container.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .llm-response-container p {
+            font-size: clamp(1rem, 2.2vw, 1.6rem);
+            color: #e0e0e0;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            font-weight: 300;
+        }
+
+        .llm-response-container .close-btn {
+            background: #dc3545; /* Red close button - kept red for clear "close" action */
+            border: none;
+            border-radius: 50%;
+            color: white;
+            width: 35px;
+            height: 35px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .llm-response-container .close-btn:hover {
+            background: #c82333;
+        }
+
+        /* Footer Styling */
+        .footer {
+            background-color: #011b4b; /* Darker blue for footer */
+            color: #E0E1DD;
+            padding: 50px 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 1200px;
+            margin: 0 auto;
+            gap: 30px;
+        }
+
+        .footer .footer-section {
+            flex: 1;
+            min-width: 200px; /* Minimum width for columns */
+            text-align: left;
+        }
+
+        .footer .footer-section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: #778DA9; /* Blue accent for headings */
+        }
+
+        .footer .footer-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer .footer-section ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer .footer-section ul li a {
+            color: #B0B0B0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer .footer-section ul li a:hover {
+            color: white;
+        }
+
+        .footer .footer-section p {
+            color: #B0B0B0;
+            line-height: 1.6;
+        }
+
+        .footer .social-icons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center; /* Center social icons */
+            gap: 15px;
+        }
+
+        .footer .social-icons a {
+            color: #E0E1DD;
+            font-size: 1.5rem;
+            transition: color 0.3s ease, transform 0.2s ease;
+        }
+
+        .footer .social-icons a:hover {
+            color: #778DA9; /* Blue accent on hover */
+            transform: scale(1.1);
+        }
+
+        .footer .copyright {
+            margin-top: 40px;
+            color: #B0B0B0;
+            font-size: 0.85rem;
+        }
+
+        /* Team Section Styling */
+        .team-section {
+            background-color: #1B263B; /* Slightly lighter dark blue */
+            padding: 80px 50px;
+        }
+
+        .team-section .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 40px;
+        }
+
+        .team-section .team-member-card {
+            background: rgba(27, 38, 59, 0.8);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding-bottom: 20px; /* Space for text below image */
+        }
+
+        .team-section .team-member-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+        }
+
+        .team-section .team-member-card .member-photo {
+            width: 100%; /* Make image fill the card width */
+            height: 250px; /* Fixed height for consistency */
+            object-fit: cover; /* Cover the area, crop if necessary */
+            display: block;
+            filter: brightness(0.8);
+            transition: filter 0.3s ease;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Separator */
+        }
+
+        .team-section .team-member-card:hover .member-photo {
+            filter: brightness(1);
+        }
+
+        .team-section .team-member-card .member-info {
+            padding: 20px 15px 0; /* Adjust padding */
+        }
+
+        .team-section .team-member-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+            color: #E0E1DD;
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        .team-section .team-member-card p {
+            font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+            color: #B0B0B0;
+            line-height: 1.5;
+            margin-bottom: 0;
+        }
+         body {
+      font-family: 'Merriweather', serif;
+    }
+    .overlay-open {
+      transform: translateX(0%);
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .overlay-closed {
+      transform: translateX(-100%);
+      opacity: 0;
+      pointer-events: none;
+    }
+    .transition-slide {
+      transition: all 0.4s ease-in-out;
+    }
+    
+
+
+        /* Responsive Adjustments for all sections */
+        @media (max-width: 1024px) {
+            .info-section, .section-container, .countdown-section, .join-us-section, .festival-section, .donate-section, .testimonials-section, .join-society-cta, .interactive-insights-section, .team-section {
+                padding: 60px 30px;
+            }
+            .info-section-content {
+                max-width: 500px;
+                padding: 25px;
+            }
+            .gallery-item {
+                max-width: calc(50% - 15px); /* Adjusted gap */
+                height: 40vh;
+            }
+            .stats-section .stats-grid,
+            .events-section .events-grid,
+            .projects-section .projects-grid,
+            .testimonials-section .testimonial-grid,
+            .team-section .team-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 25px;
+            }
+            .footer .footer-content {
+                justify-content: space-around;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .info-section {
+                justify-content: center; /* Center content on smaller screens */
+                text-align: center; /* Center text within content box */
+                padding: 40px 20px;
+            }
+            .info-section-content {
+                max-width: 90%; /* Wider content block */
+                padding: 20px;
+            }
+            .info-section-content h2 {
+                font-size: clamp(1.8rem, 6vw, 2.8rem);
+            }
+            .info-section-content p {
+                font-size: clamp(0.85rem, 2vw, 1rem);
+            }
+            /* Adjust gradients for mobile to be top/bottom fade, as content is centered */
+            .info-section-background::after {
+                background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%);
+            }
+
+            .gallery-section {
+                flex-direction: column; /* Stack items vertically */
+                height: auto; /* Auto height for stacked content */
+                padding: 30px 15px; /* Adjust padding */
+            }
+            .gallery-item {
+                min-width: 90%; /* Full width on mobile */
+                max-width: 90%;
+                height: 30vh; /* Fixed height for mobile gallery items */
+                margin-bottom: 20px; /* Space between stacked items */
+            }
+            .gallery-item:last-child {
+                margin-bottom: 0; /* No bottom margin for the last item */
+            }
+            .gallery-item-title {
+                font-size: clamp(2rem, 8vw, 3.5rem);
+            }
+
+            .section-container, .countdown-section, .join-us-section, .festival-section, .donate-section, .testimonials-section, .join-society-cta, .interactive-insights-section, .team-section {
+                padding: 40px 20px;
+            }
+
+            .stats-section .stats-grid,
+            .events-section .events-grid,
+            .projects-section .projects-grid,
+            .testimonials-section .testimonial-grid,
+            .team-section .team-grid {
+                grid-template-columns: 1fr; /* Single column on mobile */
+                gap: 20px;
+            }
+
+            .countdown-timer {
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+            .countdown-item {
+                flex: 1 1 calc(50% - 15px); /* Two items per row */
+            }
+
+            .footer .footer-content {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+            .footer .footer-section {
+                text-align: center;
+                min-width: unset;
+                width: 100%;
+            }
+            .footer .social-icons {
+                margin-top: 15px;
+            }
+            .interactive-insights-section .button-group {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .info-section, .section-container, .countdown-section, .join-us-section, .festival-section, .donate-section, .testimonials-section, .join-society-cta, .interactive-insights-section, .team-section {
+                padding: 30px 15px;
+            }
+            .info-section-content {
+                padding: 15px;
+            }
+            .read-more-button {
+                padding: 10px 20px;
+                font-size: 0.8rem;
+            }
+            .gallery-section {
+                padding: 20px 10px;
+            }
+            .gallery-item {
+                height: 25vh;
+            }
+            .countdown-item {
+                flex: 1 1 100%; /* One item per row on very small screens */
+            }
+            .team-section .team-member-card .member-photo {
+                height: 200px; /* Smaller height for mobile team photos */
+            }
+        }
+        footer {
+  background-color: #0a1744;
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+.ftr-box {
+  padding: 20px 60px;
+}
+
+.content-box1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.c-heading {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ccc;
+}
+
+p {
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+.ftr-logo {
+  height: 140px;
+  width: 140px;
+  object-fit: contain;
+}
+
+.content-box2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.logo-tagline p {
+  font-size: 14px;
+}
+
+.add-links a {
+  color: #ccc;
+  margin: 0 5px;
+  font-size: 13px;
+}
+
+.tiny-text p {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #aaa;
+}
+
+.button-panel {
+  display: flex;
+  gap: 10px;
+}
+
+.fa {
+  padding: 12px;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: white;
+  color: black;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.fa:hover {
+  transform: scale(1.1);
+  background-color: #444;
+  color: white;
+}
+
+/* 📱 Mobile Responsive Design */
+@media (max-width: 768px) {
+  .ftr-box {
+    padding: 20px 16px;
+  }
+
+  .content-box1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px 0;
+  }
+
+  .c-heading {
+    font-size: 15px;
+  }
+
+  .content-box2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .add-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .ftr-logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .logo-tagline p,
+  .tiny-text p,
+  .add-links p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+    </style>
+</head>
+<body>
+<header class="hero-section">
+<div class="hero-backgrounds" id="heroBackgrounds">
+<!-- Background images will be dynamically added here by JavaScript -->
+</div>
+<div class="hero-content">
+<h1>INNOVATE.<br/>DISCOVER.<br/>LEAD.</h1>
+<p>American National College STEM Society</p>
+</div>
+<div class="hero-navigation">
+<button class="nav-arrow left-arrow" id="prevSlide"><i class="fas fa-arrow-left"></i></button>
+<div class="pagination-dots" id="paginationDots">
+<!-- Dots will be dynamically added here by JavaScript -->
+</div>
+<button class="nav-arrow right-arrow" id="nextSlide"><i class="fas fa-arrow-right"></i></button>
+</div>
+</header>
+<!-- About Us Section -->
+<section class="info-section about-us">
+<div class="info-section-background" style="background-image: url('https://placehold.co/1920x1080/1B263B/FFFFFF?text=About+Us');"></div>
+<div class="info-section-content">
+<h2>ABOUT US</h2>
+<p>The American National College STEM Society is dedicated to fostering a vibrant community of students passionate about Science, Technology, Engineering, and Mathematics. We aim to inspire, educate, and empower the next generation of innovators and leaders through collaborative projects, workshops, and engaging events.</p>
+<button class="read-more-button">READ MORE</button>
+</div>
+</section>
+<!-- Our Vision & Mission Section -->
+<section class="info-section">
+<div class="info-section-background" style="background-image: url('https://placehold.co/1920x1080/415A77/FFFFFF?text=Vision+Mission');"></div>
+<div class="info-section-content">
+<h2>OUR VISION &amp; MISSION</h2>
+<p>Our vision is to be a leading force in STEM education and innovation, creating a future where all students have the opportunity to explore and excel in scientific and technological fields. Our mission is to provide unparalleled resources, mentorship, and opportunities that cultivate critical thinking, problem-solving skills, and a lifelong passion for STEM among our members.</p>
+<button class="read-more-button">READ MORE</button>
+</div>
+</section>
+<!-- Our Team Section -->
+<section class="section-container team-section">
+<h2>OUR LEADERSHIP TEAM</h2>
+<div class="team-grid">
+<div class="team-member-card">
+<img alt="Dr. A.K. Sharma" class="member-photo" src="https://placehold.co/400x400/0D1B2A/FFFFFF?text=MUDHALVAN"/>
+<div class="member-info">
+<h3>MUDHALVAN</h3>
+<p>President, STEM Society</p>
+</div>
+</div>
+<div class="team-member-card">
+<img alt="Prof. S.K. Gupta" class="member-photo" src="https://placehold.co/400x400/1B263B/FFFFFF?text=ABISHEK"/>
+<div class="member-info">
+<h3>ABISHEK</h3>
+<p>Vice President</p>
+</div>
+</div>
+<div class="team-member-card">
+<img alt="Ms. P.L. Devi" class="member-photo" src="https://placehold.co/400x400/415A77/FFFFFF?text=xx"/>
+<div class="member-info">
+<h3>xx</h3>
+<p>Head of Student Affairs</p>
+</div>
+</div>
+<div class="team-member-card">
+<img alt="Mr. R.K. Singh" class="member-photo" src="https://placehold.co/400x400/778DA9/FFFFFF?text=yy"/>
+<div class="member-info">
+<h3>yy</h3>
+<p>Events Coordinator</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Gallery Section -->
+<section class="gallery-section">
+<div class="gallery-item">
+<div class="gallery-item-background" style="background-image: url('https://placehold.co/960x540/1B263B/FFFFFF?text=Gallery+Image+1');"></div>
+<div class="gallery-item-overlay"></div>
+<h3 class="gallery-item-title">GALLERY</h3>
+</div>
+<div class="gallery-item">
+<div class="gallery-item-background" style="background-image: url('https://placehold.co/960x540/415A77/FFFFFF?text=Videos');"></div>
+<div class="gallery-item-overlay"></div>
+<h3 class="gallery-item-title">VIDEOS</h3>
+</div>
+</section>
+<!-- Our Impact (Stats Section) -->
+<section class="section-container stats-section">
+<h2>OUR IMPACT</h2>
+<div class="stats-grid">
+<div class="stat-item">
+<span class="number">500+</span>
+<span class="label">Members</span>
+</div>
+<div class="stat-item">
+<span class="number">100+</span>
+<span class="label">Workshops &amp; Events</span>
+</div>
+<div class="stat-item">
+<span class="number">50+</span>
+<span class="label">Featured Projects</span>
+</div>
+<div class="stat-item">
+<span class="number">10</span>
+<span class="label">Years of Excellence</span>
+</div>
+</div>
+</section>
+<!-- Upcoming Events Section -->
+<section class="section-container events-section">
+<h2>UPCOMING EVENTS</h2>
+<div class="events-grid">
+<div class="event-card">
+<h3>AI Ethics Symposium</h3>
+<p>Date: October 26, 2025</p>
+<p>Location: University Auditorium</p>
+<p>Join leading experts to discuss the future of AI and its ethical implications.</p>
+<a class="details-button" href="#">View Details</a>
+</div>
+<div class="event-card">
+<h3>Robotics Hackathon</h3>
+<p>Date: November 15-16, 2025</p>
+<p>Location: Engineering Lab</p>
+<p>Design, build, and program your own robots in this intense 24-hour challenge.</p>
+<a class="details-button" href="#">View Details</a>
+</div>
+<div class="event-card">
+<h3>Space Exploration Lecture</h3>
+<p>Date: December 5, 2025</p>
+<p>Location: Physics Department</p>
+<p>Guest speaker from NASA shares insights on the latest Mars missions.</p>
+<a class="details-button" href="#">View Details</a>
+</div>
+</div>
+</section>
+<!-- Event Countdown Timer -->
+<section class="section-container countdown-section">
+<div class="content-wrapper">
+<h2>NEXT BIG EVENT IN...</h2>
+<div class="countdown-timer" id="countdownTimer">
+<div class="countdown-item">
+<span class="value" id="days">00</span>
+<span class="label">Days</span>
+</div>
+<div class="countdown-item">
+<span class="value" id="hours">00</span>
+<span class="label">Hours</span>
+</div>
+<div class="countdown-item">
+<span class="value" id="minutes">00</span>
+<span class="label">Minutes</span>
+</div>
+<div class="countdown-item">
+<span class="value" id="seconds">00</span>
+<span class="label">Seconds</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Projects – Student Innovations Spotlight -->
+<section class="section-container projects-section">
+<h2>FEATURED PROJECTS</h2>
+<div class="projects-grid">
+<div class="project-card">
+<img alt="Project Hydroponics" src="https://placehold.co/600x400/0D1B2A/FFFFFF?text=Project+Hydro"/>
+<div class="project-info">
+<h3>Smart Hydroponics System</h3>
+<p>An automated hydroponics system using IoT sensors to optimize plant growth and resource efficiency.</p>
+</div>
+</div>
+<div class="project-card">
+<img alt="Project AI Tutor" src="https://placehold.co/600x400/1B263B/FFFFFF?text=Project+AI+Tutor"/>
+<div class="project-info">
+<h3>AI-Powered Tutoring Platform</h3>
+<p>A machine learning application providing personalized learning paths and real-time feedback for STEM students.</p>
+</div>
+</div>
+<div class="project-card">
+<img alt="Project Drone Delivery" src="https://placehold.co/600x400/415A77/FFFFFF?text=Project+Drone"/>
+<div class="project-info">
+<h3>Autonomous Drone Delivery</h3>
+<p>Development of a self-navigating drone for efficient and eco-friendly package delivery in urban areas.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Join Us? -->
+<section class="section-container join-us-section">
+<div class="content-wrapper">
+<h2>WHY JOIN THE STEM SOCIETY?</h2>
+<p>Become part of a dynamic community where innovation thrives! Gain access to exclusive workshops, connect with industry leaders, participate in groundbreaking projects, and develop essential skills for your future career in STEM. Expand your network, challenge your mind, and make a real impact.</p>
+<button class="join-button">JOIN THE SOCIETY</button>
+</div>
+</section>
+<!-- National STEM Festival Highlight (Teaser) -->
+<section class="section-container festival-section">
+<div class="content-wrapper">
+<h2>NATIONAL STEM FESTIVAL</h2>
+<p>Experience the pinnacle of innovation at the annual National STEM Festival! Witness cutting-edge research, interactive exhibits, and inspiring talks from pioneers in science and technology. Don't miss this opportunity to explore the future of STEM.</p>
+<button class="learn-more-button">LEARN MORE</button>
+</div>
+</section>
+<!-- Support Us – Donation CTA -->
+<section class="section-container donate-section">
+<h2>SUPPORT OUR MISSION</h2>
+<p>Your generous contributions enable us to continue providing invaluable resources, hosting impactful events, and fostering the next generation of STEM leaders. Every donation helps us expand our reach and enhance our programs.</p>
+<button class="donate-button">DONATE NOW</button>
+</section>
+<!-- Testimonials Section -->
+<section class="section-container testimonials-section">
+<h2>WHAT OUR MEMBERS SAY</h2>
+<div class="testimonial-grid">
+<div class="testimonial-card">
+<blockquote>"Joining the STEM Society was the best decision for my academic and career growth. The opportunities are endless!"</blockquote>
+<p class="author">- Jane Doe, Computer Science Major</p>
+</div>
+<div class="testimonial-card">
+<blockquote>"The workshops are incredibly insightful, and I've learned so much from collaborating with other passionate students."</blockquote>
+<p class="author">- John Smith, Engineering Student</p>
+</div>
+<div class="testimonial-card">
+<blockquote>"This society truly fosters a love for discovery and innovation. It's an inspiring environment to be a part of."</blockquote>
+<p class="author">- Emily White, Biology Enthusiast</p>
+</div>
+</div>
+</section>
+<!-- Interactive STEM Insights (Pop-up Triggers) -->
+<section class="section-container interactive-insights-section">
+<h2>GET INSPIRED!</h2>
+<div class="button-group">
+<button class="insight-button" id="getStemFactButton">
+<span class="spinner"></span>
+<span>💡 Get Random STEM Fact</span>
+</button>
+<button class="insight-button" id="getStemQuoteButton">
+<span class="spinner"></span>
+<span>💬 Get Inspiring STEM Quote</span>
+</button>
+</div>
+</section>
+<footer>
+<div class="ftr-box">
+<div class="content-box1">
+<div class="c-box-1">
+<p class="c-heading">OUR PORTFOLIO</p>
+<a href="#"><p>About Us</p></a>
+<a href="#"><p>Administration</p></a>
+<a href="#"><p>Events</p></a>
+<a href="#"><p>Projects</p></a>
+</div>
+<div class="c-box-2">
+<p class="c-heading">LEARN ABOUT US</p>
+<a href="#"><p>Blog / Articles</p></a>
+<a href="#"><p>Gallery</p></a>
+<a href="#"><p>Achievements</p></a>
+</div>
+<div class="c-box-3">
+<p class="c-heading">JOIN THE JOURNEY</p>
+<a href="#"><p>Join Us</p></a>
+<a href="#"><p>Contact</p></a>
+<a href="#"><p>Sign Up</p></a>
+</div>
+<div class="c-box-4">
+<p class="c-heading">GIVE</p>
+<a href="#"><p>Donate</p></a>
+</div>
+</div>
+<hr style="background-color: white; border: none; height: 1px;"/>
+<div class="content-box2">
+<div class="add-info">
+<div class="logo">
+<img alt="STEM Society logo" class="ftr-logo" src="STEM Logo 1.4.png">
+</img></div>
+<div class="logo-tagline">
+<p>Empowering Future Innovators</p>
+<p>One Project at a Time</p>
+</div>
+<div class="add-links">
+<p style="padding-top: 20px;">
+<a href="#">Account Center</a> • 
+              <a href="#">Contact Us</a> • 
+              <a href="#">Privacy Policy</a>
+</p>
+</div>
+<div class="tiny-text">
+<p>© 2025 STEM Society. All rights reserved.</p>
+</div>
+</div>
+<div class="socials">
+<div class="button-panel">
+<a class="fa fa-facebook" href="#" title="Facebook"></a>
+<a class="fa fa-youtube" href="#" title="YouTube"></a>
+<a class="fa fa-instagram" href="#" title="Instagram"></a>
+<a class="fa fa-twitter" href="#" title="Twitter"></a>
+<a class="fa fa-linkedin" href="#" title="LinkedIn"></a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- LLM Response Display (Pop-up) -->
+<div class="llm-response-container" id="llmResponseContainer">
+<p id="llmResponseText"></p>
+<button class="close-btn" id="closeLlmResponse">×</button>
+</div>
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const backgroundContainer = document.getElementById('heroBackgrounds');
+            const paginationDotsContainer = document.getElementById('paginationDots');
+            const prevButton = document.getElementById('prevSlide');
+            const nextButton = document.getElementById('nextSlide');
+
+            // New elements for LLM pop-ups
+            const getStemFactButton = document.getElementById('getStemFactButton');
+            const getStemQuoteButton = document.getElementById('getStemQuoteButton');
+            const llmResponseContainer = document.getElementById('llmResponseContainer');
+            const llmResponseText = document.getElementById('llmResponseText');
+            const closeLlmResponseButton = document.getElementById('closeLlmResponse');
+
+            // Countdown Timer elements
+            const daysSpan = document.getElementById('days');
+            const hoursSpan = document.getElementById('hours');
+            const minutesSpan = document.getElementById('minutes');
+            const secondsSpan = document.getElementById('seconds');
+
+            // Array of placeholder image URLs for the hero slideshow
+            const images = [
+                'https://placehold.co/1920x1080/0D1B2A/FFFFFF?text=STEM+1',
+                'https://placehold.co/1920x1080/1B263B/FFFFFF?text=Innovation',
+                'https://placehold.co/1920x1080/415A77/FFFFFF?text=Research',
+                'https://placehold.co/1920x1080/778DA9/FFFFFF?text=Future',
+                'https://placehold.co/1920x1080/E0E1DD/0D1B2A?text=Discovery'
+            ];
+
+            // Predefined STEM facts
+            const stemFacts = [
+                "The human brain contains about 86 billion neurons, more than the number of stars in our galaxy.",
+                "Honeybees can navigate using the sun as a compass, even on cloudy days, by detecting polarized light.",
+                "The strongest natural material known is graphene, a single layer of carbon atoms arranged in a hexagonal lattice.",
+                "There are more possible chess games than atoms in the observable universe.",
+                "A group of owls is called a parliament.",
+                "The average person walks the equivalent of three times around the world in a lifetime.",
+                "Sound travels about 4.3 times faster in water than in air.",
+                "The Earth's core is as hot as the surface of the Sun.",
+                "A single bolt of lightning contains enough energy to power 100-watt light bulb for over three months.",
+                "The universe is estimated to be approximately 13.8 billion years old."
+            ];
+
+            // Predefined STEM quotes
+            const stemQuotes = [
+                "The important thing is not to stop questioning. Curiosity has its own reason for existence. - Albert Einstein",
+                "Science is a way of thinking much more than it is a body of knowledge. - Carl Sagan",
+                "The science of today is the technology of tomorrow. - Edward Teller",
+                "Innovation distinguishes between a leader and a follower. - Steve Jobs",
+                "The only way to do great work is to love what you do. - Steve Jobs",
+                "Logic will get you from A to B. Imagination will take you everywhere. - Albert Einstein",
+                "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge. - Stephen Hawking",
+                "Somewhere, something incredible is waiting to be known. - Carl Sagan",
+                "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
+                "What we know is a drop, what we don't know is an ocean. - Isaac Newton"
+            ];
+
+            let currentSlideIndex = 0;
+            let slideshowInterval;
+            const slideDuration = 5000; // 5 seconds per slide
+
+            /**
+             * Initializes the slideshow by creating image elements and pagination dots.
+             */
+            function initializeSlideshow() {
+                images.forEach((src, index) => {
+                    // Create image element
+                    const imgDiv = document.createElement('div');
+                    imgDiv.classList.add('hero-background-image');
+                    imgDiv.style.backgroundImage = `url('${src}')`;
+                    imgDiv.dataset.index = index; // Store index for reference
+                    backgroundContainer.appendChild(imgDiv);
+
+                    // Create pagination dot
+                    const dot = document.createElement('span');
+                    dot.classList.add('dot');
+                    dot.dataset.index = index;
+                    dot.addEventListener('click', () => goToSlide(index));
+                    paginationDotsContainer.appendChild(dot);
+                });
+
+                // Set the first slide as active
+                showSlide(currentSlideIndex);
+                startSlideshow();
+            }
+
+            /**
+             * Displays a specific slide and updates pagination dots.
+             * @param {number} index The index of the slide to show.
+             */
+            function showSlide(index) {
+                // Ensure index wraps around
+                currentSlideIndex = (index + images.length) % images.length;
+
+                const allImages = document.querySelectorAll('.hero-background-image');
+                const allDots = document.querySelectorAll('.dot');
+
+                allImages.forEach((img, i) => {
+                    if (i === currentSlideIndex) {
+                        img.classList.add('active');
+                    } else {
+                        img.classList.remove('active');
+                    }
+                });
+
+                allDots.forEach((dot, i) => {
+                    if (i === currentSlideIndex) {
+                        dot.classList.add('active');
+                    } else {
+                        dot.classList.remove('active');
+                    }
+                });
+            }
+
+            /**
+             * Goes to the next slide in the sequence.
+             */
+            function nextSlide() {
+                showSlide(currentSlideIndex + 1);
+            }
+
+            /**
+             * Goes to the previous slide in the sequence.
+             */
+            function prevSlide() {
+                showSlide(currentSlideIndex - 1);
+            }
+
+            /**
+             * Jumps to a specific slide by its index.
+             * @param {number} index The index of the slide to go to.
+             */
+            function goToSlide(index) {
+                stopSlideshow(); // Stop current interval
+                showSlide(index);
+                startSlideshow(); // Restart interval
+            }
+
+            /**
+             * Starts the automatic slideshow interval.
+             */
+            function startSlideshow() {
+                stopSlideshow(); // Clear any existing interval first
+                slideshowInterval = setInterval(nextSlide, slideDuration);
+            }
+
+            /**
+             * Stops the automatic slideshow interval.
+             */
+            function stopSlideshow() {
+                clearInterval(slideshowInterval);
+            }
+
+            // Event Listeners for Navigation Buttons
+            prevButton.addEventListener('click', () => {
+                stopSlideshow();
+                prevSlide();
+                startSlideshow();
+            });
+
+            nextButton.addEventListener('click', () => {
+                stopSlideshow();
+                nextSlide();
+                startSlideshow();
+            });
+
+            // Countdown Timer Logic
+            const targetDate = new Date('December 31, 2025 23:59:59').getTime(); // Example target date
+
+            function updateCountdown() {
+                const now = new Date().getTime();
+                const distance = targetDate - now;
+
+                if (distance < 0) {
+                    clearInterval(countdownInterval);
+                    document.getElementById('countdownTimer').innerHTML = "EVENT HAS BEGUN!";
+                    return;
+                }
+
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                daysSpan.textContent = String(days).padStart(2, '0');
+                hoursSpan.textContent = String(hours).padStart(2, '0');
+                minutesSpan.textContent = String(minutes).padStart(2, '0');
+                secondsSpan.textContent = String(seconds).padStart(2, '0');
+            }
+
+            const countdownInterval = setInterval(updateCountdown, 1000);
+            updateCountdown(); // Initial call to display immediately
+
+            /**
+             * Fetches content from local facts or quotes.
+             * @param {string} type 'fact' or 'quote'
+             * @param {HTMLElement} buttonElement The button that triggered the request.
+             */
+            async function fetchAndDisplayContent(type, buttonElement) {
+                buttonElement.classList.add('loading'); // Show loading spinner
+                llmResponseText.textContent = 'Generating inspiration...'; // Loading text
+                llmResponseContainer.classList.add('show'); // Show container
+
+                try {
+                    let content;
+                    if (type === 'fact') {
+                        // Get a random fact from the predefined array
+                        const randomIndex = Math.floor(Math.random() * stemFacts.length);
+                        content = stemFacts[randomIndex];
+                    } else if (type === 'quote') {
+                        // Get a random quote from the predefined array
+                        const randomIndex = Math.floor(Math.random() * stemQuotes.length);
+                        content = stemQuotes[randomIndex];
+                    }
+                    llmResponseText.textContent = content;
+                } catch (error) {
+                    llmResponseText.textContent = "An error occurred while fetching inspiration.";
+                    console.error("Error getting content:", error);
+                } finally {
+                    buttonElement.classList.remove('loading'); // Hide loading spinner
+                }
+            }
+
+            // Event Listeners for Pop-up Buttons
+            getStemFactButton.addEventListener('click', () => {
+                fetchAndDisplayContent('fact', getStemFactButton);
+            });
+
+            getStemQuoteButton.addEventListener('click', () => {
+                fetchAndDisplayContent('quote', getStemQuoteButton);
+            });
+
+            // Close LLM response container
+            closeLlmResponseButton.addEventListener('click', () => {
+                llmResponseContainer.classList.remove('show');
+            });
+
+            // Initialize the slideshow when the DOM is ready
+            initializeSlideshow();
+        });
+    </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.getElementById('menuToggle');
+    const closeMenu = document.getElementById('closeMenu');
+    const menuOverlay = document.getElementById('menuOverlay');
+
+    menuToggle.addEventListener('click', () => {
+      menuOverlay.classList.remove('overlay-closed');
+      menuOverlay.classList.add('overlay-open');
+    });
+
+    closeMenu.addEventListener('click', () => {
+      menuOverlay.classList.remove('overlay-open');
+      menuOverlay.classList.add('overlay-closed');
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        menuOverlay.classList.remove('overlay-open');
+        menuOverlay.classList.add('overlay-closed');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.getElementById("menuToggle");
+  const menuOverlay = document.getElementById("menuOverlay");
+  const closeMenu = document.getElementById("closeMenu");
+
+  if (menuToggle && menuOverlay && closeMenu) {
+    menuToggle.addEventListener("click", () => {
+      menuOverlay.classList.remove("hidden");
+    });
+    closeMenu.addEventListener("click", () => {
+      menuOverlay.classList.add("hidden");
+    });
+  }
+});
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.getElementById('menuToggle');
+    const closeMenu = document.getElementById('closeMenu');
+    const menuOverlay = document.getElementById('menuOverlay');
+
+    menuToggle.addEventListener('click', () => {
+      menuOverlay.classList.remove('overlay-closed');
+      menuOverlay.classList.add('overlay-open');
+    });
+
+    closeMenu.addEventListener('click', () => {
+      menuOverlay.classList.remove('overlay-open');
+      menuOverlay.classList.add('overlay-closed');
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        menuOverlay.classList.remove('overlay-open');
+        menuOverlay.classList.add('overlay-closed');
+      }
+    });
+  });
+</script>
+</body>
+</html>
