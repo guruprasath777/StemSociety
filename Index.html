@@ -1505,6 +1505,90 @@ p {
     font-size: 13px;
     line-height: 1.4;
   }
+  /* Dark Blue for Navbar and Footer */
+header {
+    background-color: #0D1B2A !important; /* Ensures override of Tailwind's bg-[#0a1744] */
+}
+
+.footer {
+    background-color: #0D1B2A;
+    color: white; /* Ensure text in footer is white for contrast */
+}
+
+/* Red for interactive elements/buttons */
+.read-more-button,
+.events-section .event-card .details-button,
+.join-us-section .join-button,
+.festival-section .learn-more-button,
+.join-society-cta .join-button {
+    background: #FF4136; /* Vibrant Red */
+    border-color: #FF4136; /* Red border */
+    color: white; /* White text on red buttons */
+    background-image: none; /* Remove any previous gradients */
+}
+
+.read-more-button:hover,
+.events-section .event-card .details-button:hover,
+.join-us-section .join-button:hover,
+.festival-section .learn-more-button:hover,
+.join-society-cta .join-button:hover {
+    background: #E0372D; /* Darker red on hover */
+    border-color: #E0372D;
+}
+
+/* Specific red gradient for donation and interactive insight buttons */
+.donate-section .donate-button,
+.interactive-insights-section .insight-button {
+    background: linear-gradient(45deg, #FF4136, #E0372D); /* Red gradient */
+    color: white;
+}
+
+.donate-section .donate-button:hover,
+.interactive-insights-section .insight-button:hover {
+    background: linear-gradient(45deg, #E0372D, #FF4136);
+}
+
+/* White/Light Gray for general text and elements */
+body {
+    background-color: #0D1B2A; /* Keep dark blue background */
+    color: white; /* Set default text color to white */
+}
+
+/* Ensure main headings are white */
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+/* Adjust active pagination dot to red */
+.dot.active {
+    background-color: #FF4136; /* Red for active dot */
+    box-shadow: 0 2px 6px rgba(255, 65, 54, 0.6); /* Red shadow for active dot */
+}
+
+/* Adjust stat numbers to red */
+.stats-section .stat-item .number {
+    color: #FF4136; /* Red accent for numbers */
+}
+
+/* Adjust footer section headings to red */
+.footer .footer-section h3 {
+    color: #FF4136; /* Red accent for footer headings */
+}
+
+/* Adjust social icon hover color to red */
+.footer .social-icons a:hover {
+    color: #FF4136; /* Red accent on social icons hover */
+}
+
+/* Adjust testimonial author names to red */
+.testimonials-section .testimonial-card .author {
+    color: #FF4136; /* Red accent for author names */
+}
+
+/* Ensure the overlay menu background is dark blue */
+#menuOverlay {
+    background-color: #0D1B2A;
+}
     </style>
 </head>
 <body>
